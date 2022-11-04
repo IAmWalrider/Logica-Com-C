@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    //MANIPULANDO DADOS
+    
+    printf("Olá Mundo\n"); //printf (função de imprimir)
+    
+    int a; // int, declaração de valor inteiro
+    float b; //float, declaração de valor quebrado, com virgula
+    
+    
+    a=1; //declarando variaveis
+    b=1.5;
+    
+    float c= a+b; // float pois o resultado da soma tem virgula
+    
+    printf("%.2f\n",c); //.1 antes de f para determinar o numero de digitos ira retornar
+
+    return 0;
+}
+
+
+
+
+
+
+
